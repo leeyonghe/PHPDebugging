@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Built-in web server",
+            "type": "php",
+            "request": "launch",
+            "runtimeExecutable": "/Applications/MAMP/bin/php/php8.4.1/bin/php", // Ensure this path points to the correct PHP executable
+            "runtimeArgs": [
+                "-dxdebug.mode=debug",
+                "-dxdebug.start_with_request=yes",
+                "-S",
+                "localhost:9003",
+                "-t",
+                "${workspaceRoot}/html"
+            ],            
+            "cwd": "${workspaceRoot}/html",
+            "port": 9003,
+        }
+    ]
+}
