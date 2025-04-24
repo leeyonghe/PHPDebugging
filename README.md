@@ -1,5 +1,5 @@
-# Setting Up Real-Time PHP Debugging Environment on MacOS  
 # MacOS 환경에서 PHP 리얼타임 디버깅 환경 구축  
+  Setting Up Real-Time PHP Debugging Environment on MacOS  
 
 ## Requirements / 준비사항  
 1. **Install MAMP / MAMP 설치**  
